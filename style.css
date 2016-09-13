@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 300px;
+	margin: 0 auto;
+}
+.container--middle,
+.container--big {
+	width: 1500px;
+	margin: 0 auto;
+}
+.btns {
+	width: inherit;
+	margin: 10px auto;
+	text-align: center;
+}
+.field {
+	display: flex;
+	flex-wrap: wrap;
+	width: inherit;
+	outline: 1px solid;
+}
+.cell {
+	width: 28px;
+	height: 28px;
+	background: #ccc;
+	border: 1px solid grey;
+}
+.cell.open,
+.cell.open:hover {
+	background: #fff;
+}
+.cell.open.boom {
+	background: red;
+}
+.cell:hover {
+	background: #F1F0F0;
+}
+.flag,
+.flag:hover {
+	background: #000;
+}
+.open {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.open span {
+	font-weight: 700;
+}
